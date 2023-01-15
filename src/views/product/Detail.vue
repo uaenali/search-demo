@@ -30,6 +30,7 @@
         <el-descriptions-item label="创建时间">2019-09-10 10:44</el-descriptions-item>
       </el-descriptions>
     </div>
+    <!--  -->
   </div>
 </template>
 
@@ -40,10 +41,15 @@ export default {
     }
   },
   methods: {
-    handleEdit () {},
-    handleDelete () {}
+    handleEdit () {
+      console.log('弹窗')
+    },
+    handleDelete () {
+      console.log('删除')
+    }
   }
 }
+
 </script>
 <style lang="less" scoped>
 .container {
